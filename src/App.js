@@ -1,25 +1,28 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Menu from './components/Menu.js';
+import Homepage from './components/Homepage.js';
 
 class App extends Component {
+
+  constructor(){
+    super();
+    this.state={
+      current_page: 'home',
+    }
+  }
+
+  // sets the current_page state to the page that was clicked in the menu
+  menuClick=(param)=>{
+    this.setState({current_page: param});
+    console.log(this.state.current_page);
+  }
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Menu menuClick={this.menuClick}/>
+        <Homepage/>
       </div>
     );
   }

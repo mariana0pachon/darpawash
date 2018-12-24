@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/darpawash/static/media/icon-4.16643722.svg"
   },
   {
-    "revision": "b7e56e3a52915ec214aa",
-    "url": "/darpawash/static/css/main.959d54e7.chunk.css"
+    "revision": "0a8af161d724d3e82e48",
+    "url": "/darpawash/static/css/main.d4dcb865.chunk.css"
   },
   {
     "revision": "06a8b739b3c9c56b7955",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/darpawash/static/media/icon-3.4c8d2bc6.svg"
   },
   {
-    "revision": "b7e56e3a52915ec214aa",
-    "url": "/darpawash/static/js/main.b7e56e3a.chunk.js"
+    "revision": "0a8af161d724d3e82e48",
+    "url": "/darpawash/static/js/main.0a8af161.chunk.js"
   },
   {
     "revision": "b85845d353f5a1320bf9c5d558f57019",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/darpawash/static/media/diagram3.fb859c95.jpg"
   },
   {
-    "revision": "3289bcc5f2745e8492ba5a76f6aafcc4",
+    "revision": "0685e5d59faceab71aa3760bfd45a200",
     "url": "/darpawash/index.html"
   }
 ];

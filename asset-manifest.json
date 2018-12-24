@@ -1,7 +1,7 @@
 {
-  "main.css": "/darpawash/static/css/main.959d54e7.chunk.css",
-  "main.js": "/darpawash/static/js/main.b7e56e3a.chunk.js",
-  "main.js.map": "/darpawash/static/js/main.b7e56e3a.chunk.js.map",
+  "main.css": "/darpawash/static/css/main.d4dcb865.chunk.css",
+  "main.js": "/darpawash/static/js/main.0a8af161.chunk.js",
+  "main.js.map": "/darpawash/static/js/main.0a8af161.chunk.js.map",
   "static/js/1.06a8b739.chunk.js": "/darpawash/static/js/1.06a8b739.chunk.js",
   "static/js/1.06a8b739.chunk.js.map": "/darpawash/static/js/1.06a8b739.chunk.js.map",
   "runtime~main.js": "/darpawash/static/js/runtime~main.a16a3908.js",
@@ -15,8 +15,8 @@
   "static/media/diagram2.jpg": "/darpawash/static/media/diagram2.61cc818a.jpg",
   "static/media/diagram3.jpg": "/darpawash/static/media/diagram3.fb859c95.jpg",
   "static/media/icon-2.svg": "/darpawash/static/media/icon-2.29b4ca3c.svg",
-  "static/css/main.959d54e7.chunk.css.map": "/darpawash/static/css/main.959d54e7.chunk.css.map",
+  "static/css/main.d4dcb865.chunk.css.map": "/darpawash/static/css/main.d4dcb865.chunk.css.map",
   "index.html": "/darpawash/index.html",
-  "precache-manifest.94283006805d07b07bac2c8199d54ce8.js": "/darpawash/precache-manifest.94283006805d07b07bac2c8199d54ce8.js",
+  "precache-manifest.adc2a70196b55b9eb3d75e6cc6e32a19.js": "/darpawash/precache-manifest.adc2a70196b55b9eb3d75e6cc6e32a19.js",
   "service-worker.js": "/darpawash/service-worker.js"
 }

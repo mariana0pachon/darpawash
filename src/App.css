@@ -26,7 +26,7 @@
 }
 
 .homepage, .overview-text, .diagram-layout {
-  height: 90vh;
+  height: 100vh;
   align-content: center;
 }
 
@@ -97,8 +97,6 @@
   border-right-width: 5px;
 }
 
-
-
 .overview-text {
   font-family: 'Nixie One', cursive;
   font-size: 1.2em;
@@ -116,11 +114,13 @@
 
 .overview-icons {
   padding: 5%;
+  padding-top: 0;
 }
 
 .icon-title {
   display: inline-block;
   font-size: 2em;
+  padding-bottom: 5%;
 }
 
 .icon {

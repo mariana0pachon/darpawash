@@ -12,32 +12,37 @@ class Homepage extends Component {
   changeQuote_Click(number){
     this.setState({quote: number});
     document.getElementById('home-circle-' + number).className = ' current-slider ';
-    if (number === 1){
-      document.getElementById('home-circle-2').className = ' slider-circle '
-      document.getElementById('home-circle-3').className = ' slider-circle '
-      document.getElementById('home-circle-4').className = ' slider-circle '
-    }
-    else if (number === 2){
-      document.getElementById('home-circle-1').className = ' slider-circle '
-      document.getElementById('home-circle-3').className = ' slider-circle '
-      document.getElementById('home-circle-4').className = ' slider-circle '
-    }
-    else if (number === 3){
-      document.getElementById('home-circle-1').className = ' slider-circle '
-      document.getElementById('home-circle-2').className = ' slider-circle '
-      document.getElementById('home-circle-4').className = ' slider-circle '
-    }
-    else if (number === 4){
-      document.getElementById('home-circle-1').className = ' slider-circle '
-      document.getElementById('home-circle-2').className = ' slider-circle '
-      document.getElementById('home-circle-3').className = ' slider-circle '
+    
+    switch(number){
+      case 1:
+        document.getElementById('home-circle-2').className = ' slider-circle '
+        document.getElementById('home-circle-3').className = ' slider-circle '
+        document.getElementById('home-circle-4').className = ' slider-circle '
+        break;
+      case 2:
+        document.getElementById('home-circle-1').className = ' slider-circle '
+        document.getElementById('home-circle-3').className = ' slider-circle '
+        document.getElementById('home-circle-4').className = ' slider-circle '
+        break;
+      case 3:
+        document.getElementById('home-circle-1').className = ' slider-circle '
+        document.getElementById('home-circle-2').className = ' slider-circle '
+        document.getElementById('home-circle-4').className = ' slider-circle '
+        break;
+      case 4:
+        document.getElementById('home-circle-1').className = ' slider-circle '
+        document.getElementById('home-circle-2').className = ' slider-circle '
+        document.getElementById('home-circle-3').className = ' slider-circle '
+        break;
+      default:
+        break;
     }
   }
 
   render() {
 
     return (
-      <div>
+      <div className='homepage'>
         <div className='home-title'>Warfighter Analytics for Smartphone Healthcare</div>
         <div className='centering-guide'>
           <div className='home-divider'></div>
@@ -55,10 +60,10 @@ class Homepage extends Component {
                   : null
           }
         <div className='centering-guide'>
-          <div id='home-circle-1' onClick={()=>this.changeQuote_Click(1)} className='slider-circle current-slider'></div>
-          <div id='home-circle-2' onClick={()=>this.changeQuote_Click(2)} className='slider-circle'></div>
-          <div id='home-circle-3' onClick={()=>this.changeQuote_Click(3)} className='slider-circle'></div>
-          <div id='home-circle-4' onClick={()=>this.changeQuote_Click(4)} className='slider-circle'></div>
+          <div id='home-circle-1' onClick={()=>this.changeQuote_Click(1)} className=' current-slider '></div>
+          <div id='home-circle-2' onClick={()=>this.changeQuote_Click(2)} className=' slider-circle '></div>
+          <div id='home-circle-3' onClick={()=>this.changeQuote_Click(3)} className=' slider-circle '></div>
+          <div id='home-circle-4' onClick={()=>this.changeQuote_Click(4)} className=' slider-circle '></div>
         </div>
 
         <div className='centering-guide'>

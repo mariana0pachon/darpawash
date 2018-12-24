@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Menu from './components/Menu.js';
 import Homepage from './components/Homepage.js';
+import Overview from './components/Overview.js';
 
 class App extends Component {
 
@@ -23,6 +24,7 @@ class App extends Component {
       <div className="App">
         <Menu menuClick={this.menuClick}/>
         <Homepage/>
+        <Overview />
       </div>
     );
   }

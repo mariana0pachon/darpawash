@@ -9,16 +9,25 @@
   display: flex;
   justify-content: space-around;
   height: 5vh;
-  margin-top: 3vh;
+  margin-top: 1vh;
   text-transform: uppercase;
+  top:0;
   position: sticky;
   font-family: 'Staatliches', cursive;
+  z-index: 10;
+  padding: .5%;
 }
+
 
 .current-menu {
   border-style: solid;
-  border-color: black;
+  border-color: #1C2F27;
   border-width: 0px 0px 0.5vh 0px;
+}
+
+.homepage, .overview-text, .diagram-layout {
+  height: 90vh;
+  align-content: center;
 }
 
 .home-title {
@@ -31,7 +40,7 @@
 }
 
 .home-divider {
-  border: solid black 0.5vh;
+  border: solid #1C2F27 0.5vh;
   width: 2vw;
   display: inline-block;
 }
@@ -47,8 +56,8 @@
   font-size: 3em;
   height: 20vh;
   padding-top: 10vh;
-  padding-left: 20vw;
   font-family: 'Nixie One', cursive;
+  text-align: center;
 }
 
 .centering-guide{
@@ -57,6 +66,7 @@
 }
 
 .slider-circle, .current-slider {
+  background: transparent;
   display: inline-block;
   width: 1vh;
   height: 1vh;
@@ -70,11 +80,7 @@
   background: black;
 }
 
-.slider-circle {
-  background: transparent;
-}
-
-.down-arrow {
+.down-arrow, .back-arrow, .front-arrow {
   display: inline-block;
   box-sizing: border-box;
   height: 3vh;
@@ -86,7 +92,68 @@
   transition: border-width 150ms ease-in-out;
 }
 
-.down-arrow:hover{
+.down-arrow:hover, .back-arrow:hover, .front-arrow:hover{
   border-bottom-width: 5px;
   border-right-width: 5px;
+}
+
+
+
+.overview-text {
+  font-family: 'Nixie One', cursive;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.overview-description {
+  width: 50%;
+  padding: 5%;
+  background: #1C2F27;
+  color:white;
+}
+
+.overview-icons {
+  padding: 5%;
+}
+
+.icon-title {
+  display: inline-block;
+  font-size: 2em;
+}
+
+.icon {
+  width: 10vw;
+  height: 10vw;
+}
+
+.icon-row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.icon-description {
+  text-align: center;
+  display: inline-block;
+}
+
+.diagram-slider-top{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 90vh;
+}
+
+.back-arrow {
+  transform: rotate(135deg);
+}
+
+.front-arrow {
+  transform: rotate(-45deg);
+}
+
+.diagram-content{
+  height: 50vh;
 }

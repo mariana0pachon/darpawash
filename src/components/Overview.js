@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import './App.css';
+import Overview_text from './Overview_text.js';
+import Overview_diagram from './Overview_diagram.js';
 
 class Overview extends Component {
   render() {
     return (
-      <div>
-      	<div className='overview-text'></div>
-      	<div className='diagram-layout'>
-      	</div>
+      <div className='overview'>
+      	<Overview_text />
+      	<Overview_diagram />
       </div>
     );
   }

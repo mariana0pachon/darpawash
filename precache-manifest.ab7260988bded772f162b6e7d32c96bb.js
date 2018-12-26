@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "166437220dd3254ca62cfb398fca2253",
-    "url": "/darpawash/static/media/icon-4.16643722.svg"
+    "revision": "b85845d353f5a1320bf9c5d558f57019",
+    "url": "/darpawash/static/media/icon-5.b85845d3.svg"
   },
   {
-    "revision": "7d04970007ac52943167",
-    "url": "/darpawash/static/css/main.147a3af4.chunk.css"
+    "revision": "1007ff7042578ef867b6",
+    "url": "/darpawash/static/css/main.e5e86eca.chunk.css"
   },
   {
-    "revision": "7d2e351d52494b2b4af8",
-    "url": "/darpawash/static/js/1.7d2e351d.chunk.js"
+    "revision": "c7f1b92502aa9856c849",
+    "url": "/darpawash/static/js/1.c7f1b925.chunk.js"
   },
   {
     "revision": "a16a39085654a0043ba8",
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/darpawash/static/media/icon-3.4c8d2bc6.svg"
   },
   {
-    "revision": "7d04970007ac52943167",
-    "url": "/darpawash/static/js/main.7d049700.chunk.js"
+    "revision": "166437220dd3254ca62cfb398fca2253",
+    "url": "/darpawash/static/media/icon-4.16643722.svg"
   },
   {
-    "revision": "b85845d353f5a1320bf9c5d558f57019",
-    "url": "/darpawash/static/media/icon-5.b85845d3.svg"
+    "revision": "1007ff7042578ef867b6",
+    "url": "/darpawash/static/js/main.1007ff70.chunk.js"
   },
   {
     "revision": "06e798b9a481bfcf197a8cda2a2657bc",
@@ -52,7 +52,15 @@ self.__precacheManifest = [
     "url": "/darpawash/static/media/diagram3.fb859c95.jpg"
   },
   {
-    "revision": "2125cedc8484eb7918327efbaef4130c",
+    "revision": "92fc197750d9c333689fda74913de4cb",
+    "url": "/darpawash/static/media/emmanuelagu.92fc1977.jpg"
+  },
+  {
+    "revision": "ce0f2cada4e9166ce06732aa76f16ebf",
+    "url": "/darpawash/static/media/elkerundensteiner.ce0f2cad.jpg"
+  },
+  {
+    "revision": "2f1461ae3886f69c774e8dd419ecf1a5",
     "url": "/darpawash/index.html"
   }
 ];

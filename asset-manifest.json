@@ -1,9 +1,9 @@
 {
-  "main.css": "/darpawash/static/css/main.147a3af4.chunk.css",
-  "main.js": "/darpawash/static/js/main.7d049700.chunk.js",
-  "main.js.map": "/darpawash/static/js/main.7d049700.chunk.js.map",
-  "static/js/1.7d2e351d.chunk.js": "/darpawash/static/js/1.7d2e351d.chunk.js",
-  "static/js/1.7d2e351d.chunk.js.map": "/darpawash/static/js/1.7d2e351d.chunk.js.map",
+  "main.css": "/darpawash/static/css/main.e5e86eca.chunk.css",
+  "main.js": "/darpawash/static/js/main.1007ff70.chunk.js",
+  "main.js.map": "/darpawash/static/js/main.1007ff70.chunk.js.map",
+  "static/js/1.c7f1b925.chunk.js": "/darpawash/static/js/1.c7f1b925.chunk.js",
+  "static/js/1.c7f1b925.chunk.js.map": "/darpawash/static/js/1.c7f1b925.chunk.js.map",
   "runtime~main.js": "/darpawash/static/js/runtime~main.a16a3908.js",
   "runtime~main.js.map": "/darpawash/static/js/runtime~main.a16a3908.js.map",
   "static/media/icon-1.svg": "/darpawash/static/media/icon-1.a3a5dfcd.svg",
@@ -14,9 +14,11 @@
   "static/media/diagram1.jpg": "/darpawash/static/media/diagram1.88be7315.jpg",
   "static/media/diagram2.jpg": "/darpawash/static/media/diagram2.61cc818a.jpg",
   "static/media/diagram3.jpg": "/darpawash/static/media/diagram3.fb859c95.jpg",
+  "static/media/emmanuelagu.jpg": "/darpawash/static/media/emmanuelagu.92fc1977.jpg",
+  "static/media/elkerundensteiner.jpg": "/darpawash/static/media/elkerundensteiner.ce0f2cad.jpg",
   "static/media/icon-2.svg": "/darpawash/static/media/icon-2.29b4ca3c.svg",
-  "static/css/main.147a3af4.chunk.css.map": "/darpawash/static/css/main.147a3af4.chunk.css.map",
+  "static/css/main.e5e86eca.chunk.css.map": "/darpawash/static/css/main.e5e86eca.chunk.css.map",
   "index.html": "/darpawash/index.html",
-  "precache-manifest.ae0312db9368e03ddaf64503af098366.js": "/darpawash/precache-manifest.ae0312db9368e03ddaf64503af098366.js",
+  "precache-manifest.ab7260988bded772f162b6e7d32c96bb.js": "/darpawash/precache-manifest.ab7260988bded772f162b6e7d32c96bb.js",
   "service-worker.js": "/darpawash/service-worker.js"
 }

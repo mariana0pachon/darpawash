@@ -3,13 +3,6 @@
   width: 100%;
 }
 
-.scroller {
-  margin: 0 auto;
-  height: 100%;
-  width: 100%;
-  overflow: auto;
-}
-
 .menu {
   background: white;
   font-size: 1.5em;
@@ -32,7 +25,7 @@
   border-width: 0px 0px 0.5vh 0px;
 }
 
-.homepage, .overview-text, .diagram-layout, .people, .news, .contact {
+.homepage, .overview-text, .diagram-layout, .news, .contact {
   height: 100vh;
   align-content: center;
 }
@@ -50,9 +43,10 @@
   border: solid #1C2F27 0.5vh;
   width: 2vw;
   display: inline-block;
+  background: #1C2F27;
 }
 
-.home-subtitle {
+.home-subtitle, .icon-title, .people-title-odd, .people-title-even {
   text-align: center;
   font-family: 'Staatliches', cursive;
   font-size: 2em;
@@ -61,7 +55,7 @@
 }
 
 .home-quote {
-  font-size: 3em;
+  font-size: 2.5em;
   height: 20vh;
   padding-left: 10vw;
   padding-right: 10vw;
@@ -127,11 +121,12 @@
   padding-top: 0;
 }
 
-.icon-title {
+/*.icon-title {
+  font-size: 1.5em;
   display: inline-block;
-  font-size: 2em;
   padding-bottom: 5%;
-}
+  font-family: 'Staatliches', cursive;
+}*/
 
 .icon {
   width: 10vw;
@@ -167,3 +162,39 @@
 .diagram-content{
   height: 50vh;
 }
+
+.people {
+  height: 110vh;
+}
+
+.people-title-even, .people-title-odd {
+  font-size: 1.5em;
+  padding: 0em;
+  padding-bottom: 0em;
+  padding-top: 3%;
+}
+
+.people-title-odd{
+  background: #1C2F27;
+  color: white;
+}
+
+.people-row-odd, .people-row-even{
+  background: #1C2F27;
+  display: flex;
+  flex-wrap: nowrap;
+  color: white;
+  font-family: 'Nixie One', cursive;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding-bottom: 3vh;
+}
+
+.people-row-even {
+  background: white;
+  color: #1C2F27;
+}
+
+.people-image{
+  height: 15vh;
+} 

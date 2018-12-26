@@ -25,7 +25,6 @@ class App extends Component {
   // sets the current_page state to the page that was clicked in the menu
   menuClick=(param)=>{
     this.setState({current_page: param});
-    console.log(this.state.current_page);
     switch(param){
       case 'home':
         scrollToComponent(this.Homepage, {offset: -100, align: 'top'});

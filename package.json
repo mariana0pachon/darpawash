@@ -2,7 +2,7 @@
   "name": "darpawash",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mariana0pachon.com/darpawash",
+  "homepage": "https://mariana0pachon.github.io/darpawash/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.7.0",

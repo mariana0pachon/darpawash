@@ -14,7 +14,7 @@ class Menu extends Component {
 				that_.currentMenuStyle('contact');
 			else if(currenty>3820)
 				that_.currentMenuStyle('news');
-			else if(currenty>2840)
+			else if(currenty>2830)
 				that_.currentMenuStyle('people');
 			else if (currenty>910)
 				that_.currentMenuStyle('overview');

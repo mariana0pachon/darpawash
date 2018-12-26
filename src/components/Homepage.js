@@ -17,17 +17,14 @@ class Homepage extends Component {
       case 1:
         document.getElementById('home-circle-2').className = ' slider-circle '
         document.getElementById('home-circle-3').className = ' slider-circle '
-        document.getElementById('home-circle-4').className = ' slider-circle '
         break;
       case 2:
         document.getElementById('home-circle-1').className = ' slider-circle '
         document.getElementById('home-circle-3').className = ' slider-circle '
-        document.getElementById('home-circle-4').className = ' slider-circle '
         break;
       case 3:
         document.getElementById('home-circle-1').className = ' slider-circle '
         document.getElementById('home-circle-2').className = ' slider-circle '
-        document.getElementById('home-circle-4').className = ' slider-circle '
         break;
       case 4:
         document.getElementById('home-circle-1').className = ' slider-circle '
@@ -66,16 +63,17 @@ class Homepage extends Component {
                   <i>-Prof. Emmanuel Agu</i>
                 </div>
               : (this.state.quote===3)
-                ? <div className='home-quote'>"Three of four notable quotes"</div>
-                : (this.state.quote === 4)
-                  ? <div className='home-quote'>"Four of four notable quotes"</div>
-                  : null
+                ? <div className='home-quote'>
+                    "A device that more than 80 percent of Americans virtually always have with them may become an early warning system for soldiers suffering from traumatic brain injuries (TBI) and infectious diseases, thanks to research by a team of computer scientists at Worcester Polytechnic Institute"
+                    <br></br><br></br>
+                    <i>-Colleen Wamback, Worcester PRWeb, September 24, 2018</i>
+                  </div>
+                : null
           }
         <div className='centering-guide'>
           <div id='home-circle-1' onClick={()=>this.changeQuote_Click(1)} className=' current-slider '></div>
           <div id='home-circle-2' onClick={()=>this.changeQuote_Click(2)} className=' slider-circle '></div>
           <div id='home-circle-3' onClick={()=>this.changeQuote_Click(3)} className=' slider-circle '></div>
-          <div id='home-circle-4' onClick={()=>this.changeQuote_Click(4)} className=' slider-circle '></div>
         </div>
 
         <div className='centering-guide'>

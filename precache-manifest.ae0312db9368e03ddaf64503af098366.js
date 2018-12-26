@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/darpawash/static/media/icon-4.16643722.svg"
   },
   {
-    "revision": "0a8af161d724d3e82e48",
-    "url": "/darpawash/static/css/main.d4dcb865.chunk.css"
+    "revision": "7d04970007ac52943167",
+    "url": "/darpawash/static/css/main.147a3af4.chunk.css"
   },
   {
-    "revision": "06a8b739b3c9c56b7955",
-    "url": "/darpawash/static/js/1.06a8b739.chunk.js"
+    "revision": "7d2e351d52494b2b4af8",
+    "url": "/darpawash/static/js/1.7d2e351d.chunk.js"
   },
   {
     "revision": "a16a39085654a0043ba8",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/darpawash/static/media/icon-3.4c8d2bc6.svg"
   },
   {
-    "revision": "0a8af161d724d3e82e48",
-    "url": "/darpawash/static/js/main.0a8af161.chunk.js"
+    "revision": "7d04970007ac52943167",
+    "url": "/darpawash/static/js/main.7d049700.chunk.js"
   },
   {
     "revision": "b85845d353f5a1320bf9c5d558f57019",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/darpawash/static/media/diagram3.fb859c95.jpg"
   },
   {
-    "revision": "0685e5d59faceab71aa3760bfd45a200",
+    "revision": "2125cedc8484eb7918327efbaef4130c",
     "url": "/darpawash/index.html"
   }
 ];

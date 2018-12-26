@@ -3,6 +3,13 @@
   width: 100%;
 }
 
+.scroller {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
 .menu {
   background: white;
   font-size: 1.5em;
@@ -25,7 +32,7 @@
   border-width: 0px 0px 0.5vh 0px;
 }
 
-.homepage, .overview-text, .diagram-layout {
+.homepage, .overview-text, .diagram-layout, .people, .news, .contact {
   height: 100vh;
   align-content: center;
 }
@@ -50,12 +57,15 @@
   font-family: 'Staatliches', cursive;
   font-size: 2em;
   padding: 2em;
+  padding-bottom: 1em;
 }
 
 .home-quote {
   font-size: 3em;
   height: 20vh;
-  padding-top: 10vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 4em;
   font-family: 'Nixie One', cursive;
   text-align: center;
 }

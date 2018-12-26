@@ -34,11 +34,27 @@ class Overview_diagram extends Component {
 	  }
 	}
 
+	nextDiagram_Click(){
+		let i=this.state.current_diagram;
+		if (i===3)
+			i=0;
+		this.setState({current_diagram: ++i});
+		this.changeDiagram_Click(i);		
+	}
+
+	previousDiagram_Click(){
+		let i=this.state.current_diagram;
+		if (i===1)
+			i=4;
+		this.setState({current_diagram: --i});
+		this.changeDiagram_Click(i);		
+	}
+
 	render() {
 	return (
 	  	<div className='diagram-layout'>
 	  		<div className='diagram-slider-top'>
-	  			<div id='diagram-back-arrow'className='back-arrow'></div>
+	  			<div  onClick={()=>this.previousDiagram_Click()} id='diagram-back-arrow'className='back-arrow'></div>
 	  			{
 	  				(this.state.current_diagram===1)
 	  				? <img src={diagram1} className='diagram-content'/>
@@ -48,7 +64,7 @@ class Overview_diagram extends Component {
 	  						?<img src={diagram3} className='diagram-content'/>
 	  						:null
 	  			}
-	  			<div id='diagram-front-arrow'className='front-arrow'></div>
+	  			<div onClick={()=>this.nextDiagram_Click()} id='diagram-front-arrow'className='front-arrow'></div>
 	  		</div>
 	  		<div className='centering-guide'>
 	  		  <div id='diagram-circle-1' onClick={()=>this.changeDiagram_Click(1)} className=' current-slider '></div>

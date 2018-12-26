@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 
 class Homepage extends Component {
 
-  constructor(){
-    super();
+  constructor(props){
+    super(props);
     this.state={
       quote: 1,
     }
@@ -39,6 +39,10 @@ class Homepage extends Component {
     }
   }
 
+  scrollDownClick(){
+    this.props.scrollDownClick();
+  }
+
   render() {
 
     return (
@@ -50,9 +54,17 @@ class Homepage extends Component {
         <div className='home-subtitle'>Worcester Polytechnic Institute</div>
           {
             (this.state.quote === 1)
-            ? <div className='home-quote'>"One of four notable quotes"</div>
+            ? <div className='home-quote'>
+                "The technology we are creating through WASH, which will discover predictive patterns in massive data sets in real time, is bound to be transformative." 
+                <br></br><br></br>
+                <i>-Prof. Elke Rundensteiner</i>
+              </div>
             : (this.state.quote === 2)
-              ? <div className='home-quote'>"Two of four notable quotes"</div>
+              ? <div className='home-quote'>
+                  "We can look for symptoms like slurred speech or reduced communication and social interaction that may indicate TBI, or coughing and fatigued movement typical of some infectious diseases, and we can trigger help earlier.”
+                  <br></br><br></br>
+                  <i>-Prof. Emmanuel Agu</i>
+                </div>
               : (this.state.quote===3)
                 ? <div className='home-quote'>"Three of four notable quotes"</div>
                 : (this.state.quote === 4)
@@ -67,7 +79,7 @@ class Homepage extends Component {
         </div>
 
         <div className='centering-guide'>
-          <div className='down-arrow'></div>
+          <div onClick={()=>this.scrollDownClick()} className='down-arrow'></div>
         </div>
 
       </div>

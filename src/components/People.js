@@ -51,7 +51,7 @@ class People extends Component {
 		    	<div className='centering-guide'>
 		    		<img src={Placeholder} className='people-image'/>
 		    		<div className=''>
-		    			Dr Richard Ellison<br></br>Infectious Diseases<br></br>University of Massachusetts Medical School
+		    			Dr Richard Ellison<br></br>Infectious Diseases<br></br>UMass Medical School
 					</div>
 		    	</div>
 		    	<div className='centering-guide'>

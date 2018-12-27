@@ -8,7 +8,6 @@
   font-size: 1.5em;
   display: flex;
   justify-content: space-around;
-  height: 5vh;
   margin-top: 1vh;
   text-transform: uppercase;
   top:0;
@@ -25,9 +24,14 @@
   border-width: 0px 0px 0.5vh 0px;
 }
 
-.homepage, .overview-text, .diagram-layout, .news, .contact {
-  height: 100vh;
+.homepage, .overview-text, .people, .diagram-layout, .news, .contact {
+  /*height: 100vh;*/
   align-content: center;
+  margin-top: 5%;
+}
+
+.homepage {
+  margin-top: 0%;
 }
 
 .home-title {
@@ -56,10 +60,9 @@
 
 .home-quote {
   font-size: 2.5em;
-  height: 20vh;
   padding-left: 10vw;
   padding-right: 10vw;
-  padding-bottom: 4em;
+  padding-bottom: 2em;
   font-family: 'Nixie One', cursive;
   text-align: center;
 }
@@ -160,11 +163,7 @@
 }
 
 .diagram-content{
-  height: 50vh;
-}
-
-.people {
-  height: 110vh;
+  width: 50vw;
 }
 
 .people-title-even, .people-title-odd {

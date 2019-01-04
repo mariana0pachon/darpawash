@@ -6,6 +6,9 @@ class Overview extends Component {
   render() {
     return (
       <div className='overview'>
+	      <div className='parallax section-title'>
+	      	Overview
+	      </div>	
       	<Overview_text />
       	<Overview_diagram />
       </div>

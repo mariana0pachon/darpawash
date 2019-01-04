@@ -4,9 +4,39 @@ class News extends Component {
 
   render() {
     return (
-      <div className='news'>  
-        <h1>News</h1>
-      </div>
+      <div>
+	    	<div className='parallax section-title'>
+	    		News
+	    	</div>	
+	    	<div className='news'>
+				<div className='news-block'>
+					Paper Title with link to Paper
+				</div>
+				<div className='news-block'>
+					Paper Title with link to Paper
+				</div>
+				<div className='news-block'>
+					Paper Title with link to Paper
+				</div>
+				<div className='news-block'>
+					Paper Title with link to Paper
+				</div>
+			</div>
+	    	<div className='news'>
+				<div className='news-block'>
+					Paper Title with link to Paper
+				</div>
+				<div className='news-block'>
+					Paper Title with link to Paper
+				</div>
+				<div className='news-block'>
+					Paper Title with link to Paper
+				</div>
+				<div className='news-block'>
+					Paper Title with link to Paper
+				</div>
+			</div>
+		</div>
     );
   }
 }

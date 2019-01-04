@@ -1,7 +1,7 @@
-.App {
+/*.App {
   height: 100%;
   width: 100%;
-}
+}*/
 
 .menu {
   background: white;
@@ -22,12 +22,6 @@
   border-style: solid;
   border-color: #1C2F27;
   border-width: 0px 0px 0.5vh 0px;
-}
-
-.homepage, .overview-text, .people, .diagram-layout, .news, .contact {
-  /*height: 100vh;*/
-  align-content: center;
-  margin-top: 5%;
 }
 
 .homepage {
@@ -97,6 +91,7 @@
   border-width: 0px 1px 1px 0px;
   transform: rotate(45deg);
   transition: border-width 150ms ease-in-out;
+  margin: 2%;
 }
 
 .down-arrow:hover, .back-arrow:hover, .front-arrow:hover{
@@ -110,6 +105,7 @@
   line-height: 1.5em;
   display: flex;
   flex-wrap: nowrap;
+  margin-top: 0;
 }
 
 .overview-description {
@@ -196,4 +192,113 @@
 
 .people-image{
   height: 15vh;
+  padding: 1%;
 } 
+
+.results {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.section-title{
+  font-size: 3em;
+  line-height: 10em;
+  font-family: 'Staatliches', cursive;
+  text-align: center;
+  align-content: center;
+  background: url(pictures/soldier.jpg);
+}
+
+.parallax { 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.paper-odd, .paper-even{
+  background: #1C2F27;
+  color: white;
+  font-family: 'Nixie One', cursive;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding: 3vh;
+  line-height: 2em;
+}
+
+.paper-odd {
+  background: white;
+  color: #1C2F27;
+}
+
+.paper-title{
+  font-family: 'Staatliches', cursive;
+  font-size: 1.5em;
+}
+
+.news {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.news-block {
+  font-family: 'Nixie One', cursive;
+  font-size: 1.5em;
+  line-height: 3em;
+  text-align: center;
+  width: 25%;
+  margin: 2%;
+  border: solid #1C2F27 1px;
+  transition: border-width 200ms ease-in-out;
+  transition: font-weight 150ms ease-in-out;
+}
+
+.news-block:hover{
+  border-width: 2px;
+  font-weight: 700;
+}
+
+.contact-info{
+  font-size: 2em;
+  text-align: center;
+  padding: 5%;
+  font-family: 'Nixie One', cursive;
+  line-height: 3em;
+}
+
+.footer{
+  background: #1C2F27;
+  color:white;
+  font-family: 'Nixie One', cursive;
+  text-align: center;
+  padding: 1%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .overview-text{
+      flex-wrap: wrap;
+  }
+  .overview-description {
+    width: 100%;
+  }
+  .people-row-odd, .people-row-even{
+    flex-wrap: wrap;
+  }
+
+  .results {
+    flex-wrap: wrap;
+  }
+
+  .news {
+    flex-wrap: wrap;
+  }
+
+  .news-block{
+    width: 100%;
+  }
+
+}

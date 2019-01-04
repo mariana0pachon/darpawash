@@ -32,6 +32,7 @@ class Menu extends Component {
 			document.getElementById('news').className -= ' current-menu ';
 			document.getElementById('contact').className -= ' current-menu ';
 			document.getElementById('overview').className -= ' current-menu ';
+			document.getElementById('results').className -= ' current-menu ';
 		}
 		else
 			document.getElementById(param).className = ' current-menu ';
@@ -40,21 +41,31 @@ class Menu extends Component {
 				document.getElementById('people').className -= ' current-menu ';
 				document.getElementById('news').className -= ' current-menu ';
 				document.getElementById('contact').className -= ' current-menu ';
+				document.getElementById('results').className -= ' current-menu ';
 				break;
 			case 'people':
 				document.getElementById('overview').className -= ' current-menu ';
 				document.getElementById('news').className -= ' current-menu ';
 				document.getElementById('contact').className -= ' current-menu ';
+				document.getElementById('results').className -= ' current-menu ';
+				break;
+			case 'results':
+				document.getElementById('overview').className -= ' current-menu ';
+				document.getElementById('people').className -= ' current-menu ';
+				document.getElementById('contact').className -= ' current-menu ';
+				document.getElementById('news').className -= ' current-menu ';
 				break;
 			case 'news':
 				document.getElementById('overview').className -= ' current-menu ';
 				document.getElementById('people').className -= ' current-menu ';
 				document.getElementById('contact').className -= ' current-menu ';
+				document.getElementById('results').className -= ' current-menu ';
 				break;
 			case 'contact':
 				document.getElementById('overview').className -= ' current-menu ';
 				document.getElementById('news').className -= ' current-menu ';
 				document.getElementById('people').className -= ' current-menu ';
+				document.getElementById('results').className -= ' current-menu ';
 				break;
 			default:
 				break;
@@ -64,9 +75,10 @@ class Menu extends Component {
   	render() {
     	return (
       		<div className='menu'>
+      			<div id='home' onClick={()=>this.menuClick('home')}>WASH</div>
 		      	<div id='overview' onClick={()=>this.menuClick('overview')}>Overview</div>
 		      	<div id='people' onClick={()=>this.menuClick('people')}>People</div>
-		      	<div id='home' onClick={()=>this.menuClick('home')}>Logo</div>
+		      	<div id='results' onClick={()=>this.menuClick('results')}>Results</div>
 		      	<div id='news' onClick={()=>this.menuClick('news')}>News</div>
 		    	<div id='contact' onClick={()=>this.menuClick('contact')}>Contact</div>
 		    </div>

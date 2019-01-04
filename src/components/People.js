@@ -9,7 +9,9 @@ class People extends Component {
   render() {
     return (
         <div className='people centering-guide'>
-        	
+        	<div className='parallax section-title'>
+        		People
+        	</div>	
         	<div className='people-title-odd'>Faculty</div>
         	<div className='people-row-odd'>
 		    	<div className='centering-guide'>

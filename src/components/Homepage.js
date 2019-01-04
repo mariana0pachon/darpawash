@@ -44,7 +44,7 @@ class Homepage extends Component {
 
     return (
       <div className='homepage'>
-        <div className='home-title'>Warfighter Analytics for Smartphone Healthcare</div>
+        <div className='home-title'>WASH: Warfighter Analytics for Smartphone Healthcare</div>
         <div className='centering-guide'>
           <div className='home-divider'></div>
         </div>

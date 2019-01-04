@@ -4,8 +4,17 @@ class Contact extends Component {
 
   render() {
     return (
-      <div className='contact'>  
-        <h1>Contact</h1>
+      <div>
+	      <div className='parallax section-title'>
+	      	Contact
+	      </div>	
+	      <div className='contact-info'>
+	      	For more information on the WPI WASH project please contact:
+	      	<br></br>
+	      	email@wpi.edu
+	      	<br></br>
+	      	email.wpi.edu
+	      </div>
       </div>
     );
   }

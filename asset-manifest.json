@@ -1,11 +1,12 @@
 {
-  "main.css": "/darpawash/static/css/main.6b257bc2.chunk.css",
-  "main.js": "/darpawash/static/js/main.4bbd7536.chunk.js",
-  "main.js.map": "/darpawash/static/js/main.4bbd7536.chunk.js.map",
+  "main.css": "/darpawash/static/css/main.02020778.chunk.css",
+  "main.js": "/darpawash/static/js/main.59377866.chunk.js",
+  "main.js.map": "/darpawash/static/js/main.59377866.chunk.js.map",
   "static/js/1.c7f1b925.chunk.js": "/darpawash/static/js/1.c7f1b925.chunk.js",
   "static/js/1.c7f1b925.chunk.js.map": "/darpawash/static/js/1.c7f1b925.chunk.js.map",
   "runtime~main.js": "/darpawash/static/js/runtime~main.a16a3908.js",
   "runtime~main.js.map": "/darpawash/static/js/runtime~main.a16a3908.js.map",
+  "static/media/App.css": "/darpawash/static/media/soldier.e97d3ed8.jpg",
   "static/media/icon-1.svg": "/darpawash/static/media/icon-1.a3a5dfcd.svg",
   "static/media/icon-3.svg": "/darpawash/static/media/icon-3.4c8d2bc6.svg",
   "static/media/icon-4.svg": "/darpawash/static/media/icon-4.16643722.svg",
@@ -17,8 +18,8 @@
   "static/media/emmanuelagu.jpg": "/darpawash/static/media/emmanuelagu.92fc1977.jpg",
   "static/media/elkerundensteiner.jpg": "/darpawash/static/media/elkerundensteiner.ce0f2cad.jpg",
   "static/media/icon-2.svg": "/darpawash/static/media/icon-2.29b4ca3c.svg",
-  "static/css/main.6b257bc2.chunk.css.map": "/darpawash/static/css/main.6b257bc2.chunk.css.map",
+  "static/css/main.02020778.chunk.css.map": "/darpawash/static/css/main.02020778.chunk.css.map",
   "index.html": "/darpawash/index.html",
-  "precache-manifest.42f49c1894016df80283c4876a7fecbb.js": "/darpawash/precache-manifest.42f49c1894016df80283c4876a7fecbb.js",
+  "precache-manifest.148cad54edb536c421affdd17ff8c14f.js": "/darpawash/precache-manifest.148cad54edb536c421affdd17ff8c14f.js",
   "service-worker.js": "/darpawash/service-worker.js"
 }

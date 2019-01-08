@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/darpawash/static/media/elkerundensteiner.ce0f2cad.jpg"
   },
   {
-    "revision": "5c53e892336a5ca5538b",
-    "url": "/darpawash/static/css/main.14bcaf57.chunk.css"
+    "revision": "4674235cfac0a92911fa",
+    "url": "/darpawash/static/css/main.c4a090eb.chunk.css"
   },
   {
     "revision": "76aa8a50135de3b30255",
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/darpawash/static/media/emmanuelagu.c028700b.png"
   },
   {
-    "revision": "5c53e892336a5ca5538b",
-    "url": "/darpawash/static/js/main.5c53e892.chunk.js"
+    "revision": "4674235cfac0a92911fa",
+    "url": "/darpawash/static/js/main.4674235c.chunk.js"
   },
   {
     "revision": "f77b07265ff12b7c9de1481486c0ff3b",
@@ -100,6 +100,10 @@ self.__precacheManifest = [
     "url": "/darpawash/static/media/wpi.632afeb2.png"
   },
   {
+    "revision": "e97d3ed86a80b75e36a33384aeaa97e4",
+    "url": "/darpawash/static/media/soldier.e97d3ed8.jpg"
+  },
+  {
     "revision": "e5a6ada9ab558dd875cc0de6b37432bb",
     "url": "/darpawash/static/media/soldier2.e5a6ada9.jpeg"
   },
@@ -112,11 +116,7 @@ self.__precacheManifest = [
     "url": "/darpawash/static/media/soldier4.10cf00bc.jpeg"
   },
   {
-    "revision": "e97d3ed86a80b75e36a33384aeaa97e4",
-    "url": "/darpawash/static/media/soldier.e97d3ed8.jpg"
-  },
-  {
-    "revision": "16ff6097df742431dcd677d55c8905e7",
+    "revision": "0791115b5b8bb8e070c1279cbdcd3652",
     "url": "/darpawash/index.html"
   }
 ];

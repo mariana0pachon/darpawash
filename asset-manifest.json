@@ -1,7 +1,7 @@
 {
   "main.css": "/darpawash/static/css/main.14bcaf57.chunk.css",
-  "main.js": "/darpawash/static/js/main.b37fa019.chunk.js",
-  "main.js.map": "/darpawash/static/js/main.b37fa019.chunk.js.map",
+  "main.js": "/darpawash/static/js/main.5c53e892.chunk.js",
+  "main.js.map": "/darpawash/static/js/main.5c53e892.chunk.js.map",
   "static/js/1.76aa8a50.chunk.js": "/darpawash/static/js/1.76aa8a50.chunk.js",
   "static/js/1.76aa8a50.chunk.js.map": "/darpawash/static/js/1.76aa8a50.chunk.js.map",
   "runtime~main.js": "/darpawash/static/js/runtime~main.a16a3908.js",
@@ -30,6 +30,6 @@
   "static/media/App.css": "/darpawash/static/media/soldier.e97d3ed8.jpg",
   "static/css/main.14bcaf57.chunk.css.map": "/darpawash/static/css/main.14bcaf57.chunk.css.map",
   "index.html": "/darpawash/index.html",
-  "precache-manifest.7b8649d63d1719e70c23ec8521c57a5b.js": "/darpawash/precache-manifest.7b8649d63d1719e70c23ec8521c57a5b.js",
+  "precache-manifest.9dbf0af379c3f73c2d95b37b608b224c.js": "/darpawash/precache-manifest.9dbf0af379c3f73c2d95b37b608b224c.js",
   "service-worker.js": "/darpawash/service-worker.js"
 }

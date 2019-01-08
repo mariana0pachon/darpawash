@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/darpawash/static/media/elkerundensteiner.ce0f2cad.jpg"
   },
   {
-    "revision": "b37fa019536eaafbd44a",
+    "revision": "5c53e892336a5ca5538b",
     "url": "/darpawash/static/css/main.14bcaf57.chunk.css"
   },
   {
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/darpawash/static/media/emmanuelagu.c028700b.png"
   },
   {
-    "revision": "b37fa019536eaafbd44a",
-    "url": "/darpawash/static/js/main.b37fa019.chunk.js"
+    "revision": "5c53e892336a5ca5538b",
+    "url": "/darpawash/static/js/main.5c53e892.chunk.js"
   },
   {
     "revision": "f77b07265ff12b7c9de1481486c0ff3b",
@@ -116,7 +116,7 @@ self.__precacheManifest = [
     "url": "/darpawash/static/media/soldier.e97d3ed8.jpg"
   },
   {
-    "revision": "201236771ba4a427f5c282d0951cfe77",
+    "revision": "16ff6097df742431dcd677d55c8905e7",
     "url": "/darpawash/index.html"
   }
 ];

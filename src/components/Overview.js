@@ -6,7 +6,7 @@ class Overview extends Component {
   render() {
     return (
       <div className='overview'>
-	      <div className='parallax section-title'>
+	      <div className='parallax section-title overview-title'>
 	      	Overview
 	      </div>	
       	<Overview_text />

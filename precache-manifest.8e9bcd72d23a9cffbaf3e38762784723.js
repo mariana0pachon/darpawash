@@ -1,19 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "ce0f2cada4e9166ce06732aa76f16ebf",
-    "url": "/darpawash/static/media/elkerundensteiner.ce0f2cad.jpg"
+    "revision": "c028700b65d1351e306553f0c2be0c57",
+    "url": "/darpawash/static/media/emmanuelagu.c028700b.png"
   },
   {
-    "revision": "4674235cfac0a92911fa",
-    "url": "/darpawash/static/css/main.c4a090eb.chunk.css"
+    "revision": "ee41df8e361b6bbc25df",
+    "url": "/darpawash/static/css/main.bc1b61bf.chunk.css"
   },
   {
-    "revision": "76aa8a50135de3b30255",
-    "url": "/darpawash/static/js/1.76aa8a50.chunk.js"
+    "revision": "9ea7c3db44b81473afd7",
+    "url": "/darpawash/static/js/1.9ea7c3db.chunk.js"
   },
   {
     "revision": "a16a39085654a0043ba8",
     "url": "/darpawash/static/js/runtime~main.a16a3908.js"
+  },
+  {
+    "revision": "632afeb281b450c571833e1cf33a9c51",
+    "url": "/darpawash/static/media/wpi.632afeb2.png"
   },
   {
     "revision": "e509dbfb6e00464c54ef470ebd43b022",
@@ -56,12 +60,12 @@ self.__precacheManifest = [
     "url": "/darpawash/static/media/diagram3.fb859c95.jpg"
   },
   {
-    "revision": "c028700b65d1351e306553f0c2be0c57",
-    "url": "/darpawash/static/media/emmanuelagu.c028700b.png"
+    "revision": "ee41df8e361b6bbc25df",
+    "url": "/darpawash/static/js/main.ee41df8e.chunk.js"
   },
   {
-    "revision": "4674235cfac0a92911fa",
-    "url": "/darpawash/static/js/main.4674235c.chunk.js"
+    "revision": "ce0f2cada4e9166ce06732aa76f16ebf",
+    "url": "/darpawash/static/media/elkerundensteiner.ce0f2cad.jpg"
   },
   {
     "revision": "f77b07265ff12b7c9de1481486c0ff3b",
@@ -96,12 +100,8 @@ self.__precacheManifest = [
     "url": "/darpawash/static/media/muehlschegel.e12bd329.jpg"
   },
   {
-    "revision": "632afeb281b450c571833e1cf33a9c51",
-    "url": "/darpawash/static/media/wpi.632afeb2.png"
-  },
-  {
-    "revision": "e97d3ed86a80b75e36a33384aeaa97e4",
-    "url": "/darpawash/static/media/soldier.e97d3ed8.jpg"
+    "revision": "9555b9d4a5b0d455b497be61bada95d4",
+    "url": "/darpawash/static/media/swearer.9555b9d4.svg"
   },
   {
     "revision": "e5a6ada9ab558dd875cc0de6b37432bb",
@@ -116,7 +116,11 @@ self.__precacheManifest = [
     "url": "/darpawash/static/media/soldier4.10cf00bc.jpeg"
   },
   {
-    "revision": "0791115b5b8bb8e070c1279cbdcd3652",
+    "revision": "e97d3ed86a80b75e36a33384aeaa97e4",
+    "url": "/darpawash/static/media/soldier.e97d3ed8.jpg"
+  },
+  {
+    "revision": "cf0bf78b794e64214f1308f4a7a768b9",
     "url": "/darpawash/index.html"
   }
 ];
